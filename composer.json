@@ -18,11 +18,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JPush\\ServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
+                "JPush\\JPushServiceProvider"
+            ]
         }
-    },
+    }
 }

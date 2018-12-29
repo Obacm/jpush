@@ -10,7 +10,7 @@ class Config
     const CONNECT_TIMEOUT = 20;
     const READ_TIMEOUT = 120;
     const DEFAULT_MAX_RETRY_TIMES = 3;
-    const DEFAULT_LOG_FILE = config('jpush.default_log_file');
+    const DEFAULT_LOG_FILE = '../storage/logs/jpush.log';
     const HTTP_GET = 'GET';
     const HTTP_POST = 'POST';
     const HTTP_DELETE = 'DELETE';

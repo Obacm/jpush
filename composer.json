@@ -1,0 +1,28 @@
+{
+    "name": "obacm/jpush",
+    "description": "laravel 极光推送",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Obacm",
+            "email": "1129627438@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JPush\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JPush\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
+}

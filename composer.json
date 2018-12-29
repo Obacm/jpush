@@ -12,13 +12,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "JPush\\": "src/"
+            "Obacm\\JPush\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JPush\\JPushServiceProvider"
+                "Obacm\\JPush\\JPushServiceProvider"
             ]
         }
     }

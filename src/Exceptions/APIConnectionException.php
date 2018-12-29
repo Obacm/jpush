@@ -1,6 +1,6 @@
 <?php
 
-namespace JPush\Exceptions;
+namespace Obacm\JPush\Exceptions;
 
 class APIConnectionException extends JPushException
 {

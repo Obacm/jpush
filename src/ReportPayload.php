@@ -1,6 +1,6 @@
 <?php
 
-namespace JPush;
+namespace Obacm\JPush;
 
 use InvalidArgumentException;
 

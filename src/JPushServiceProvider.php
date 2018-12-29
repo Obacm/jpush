@@ -10,7 +10,7 @@ class JPushServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/jpush.php' => config_path('jpush.php'),
-        ], 'config');
+        ]);
 
         $this->mergeConfigFrom(__DIR__.'/../config/jpush.php', 'jpush');
     }
